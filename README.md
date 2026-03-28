@@ -39,9 +39,9 @@ All hotkeys target the currently active window and kill any existing ConversionP
 
 In `FullscreenDetector` I have included a few example applicatons and titles:
 
-Processes: `chrome.exe`, `vlc.exe`, `mpc-3d64.exe` (https://github.com/johnbeere/MPC-3D)
+Processes: `chrome.exe`, `vlc.exe`, `mpc-3d64.exe` 
 
-Title must contain one of: `3D SBS Image Viewer`, `3D.HSBS`, `mpc-3d`
+Title must contain one of: `3D SBS Image Viewer`, `3D.HSBS`, `mpc-3d` 
 
 Fullscreen is defined as the window covering the full `3840×2160`.
 
@@ -51,6 +51,10 @@ To add more apps or title keywords, edit the config lines near the top of `Fulls
 Programs := "chrome.exe|vlc.exe|mpc-3d64.exe"
 Titles   := "3D SBS Image Viewer|3D.HSBS|mpc-3d"
 ```
+Example applications used:  
+* https://github.com/NTM-3D/3DSBSImageViewer  
+* https://www.videolan.org/  
+* https://github.com/johnbeere/MPC-3D  
 
 ---
 
